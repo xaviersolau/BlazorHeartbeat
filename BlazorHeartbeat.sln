@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoloX.BlazorHeartbeat", "src\libs\SoloX.BlazorHeartbeat\SoloX.BlazorHeartbeat.csproj", "{315B2F43-4502-476C-8AEA-21D43CB86F05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{F7BAEF74-B9C9-4CC6-827D-632F4F216782}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{D6D25B10-EE08-4D5C-9898-2E354968B1DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoloX.BlazorHeartbeat.Examples", "src\examples\SoloX.BlazorHeartbeat.Examples\SoloX.BlazorHeartbeat.Examples.csproj", "{C996A6AB-865F-44EC-B09F-0FF04FE058AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{44B2CFED-7AF9-4B7E-BEA7-20F0619CA1CC}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		src\SharedProperties.props = src\SharedProperties.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{315B2F43-4502-476C-8AEA-21D43CB86F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315B2F43-4502-476C-8AEA-21D43CB86F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315B2F43-4502-476C-8AEA-21D43CB86F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315B2F43-4502-476C-8AEA-21D43CB86F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C996A6AB-865F-44EC-B09F-0FF04FE058AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C996A6AB-865F-44EC-B09F-0FF04FE058AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C996A6AB-865F-44EC-B09F-0FF04FE058AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C996A6AB-865F-44EC-B09F-0FF04FE058AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{315B2F43-4502-476C-8AEA-21D43CB86F05} = {F7BAEF74-B9C9-4CC6-827D-632F4F216782}
+		{C996A6AB-865F-44EC-B09F-0FF04FE058AD} = {D6D25B10-EE08-4D5C-9898-2E354968B1DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EDC8A00-6CBF-44E2-9470-B9F5581A44D9}
+	EndGlobalSection
+EndGlobal

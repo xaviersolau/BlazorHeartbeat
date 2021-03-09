@@ -21,17 +21,17 @@ You can checkout this Github repository or you can use the NuGet package:
 
 **Install using the command line from the Package Manager:**
 ```bash
-Install-Package SoloX.BlazorHeartbeat -version 1.0.0-alpha.2
+Install-Package SoloX.BlazorHeartbeat -version 1.0.0
 ```
 
 **Install using the .Net CLI:**
 ```bash
-dotnet add package SoloX.BlazorHeartbeat --version 1.0.0-alpha.2
+dotnet add package SoloX.BlazorHeartbeat --version 1.0.0
 ```
 
 **Install editing your project file (csproj):**
 ```xml
-<PackageReference Include="SoloX.BlazorHeartbeat" Version="1.0.0-alpha.2" />
+<PackageReference Include="SoloX.BlazorHeartbeat" Version="1.0.0" />
 ```
 
 ## How to use it
